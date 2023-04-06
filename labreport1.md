@@ -32,5 +32,6 @@ I will be showing you how to connect to remote access and understanding file sys
 1. open up a terminal window in VS Code
 2. 
 ## Step 4: Experimenting with Commands
-
+**GUI vs CLI** <br />
+You are most likely familiar with GUI which stands for **G**raphical **U**ser **I**nterface 
 [Back](https://melanieharo22.github.io/cse15l-lab-reports/)
