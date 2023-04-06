@@ -6,3 +6,4 @@
 - allows you to log in and run commands on a remote machine just as if you were sitting in front of it 
 
 ## Step 1: CSE15L Account Lookup
+1. 
