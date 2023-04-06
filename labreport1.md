@@ -22,7 +22,12 @@ I will be showing you how to connect to remote access and understanding file sys
 11. enter your new password that meets the requirements (different from previous passwords, at least 12 characters long, include upper & lower case, numbers and special symbols, not contain any part of your username) → *from previous experience: I have reset my password about 3 times total for CSE/ECE classes and found that when my password contained @!, my password reset process was more successful in the sense that it took less than 15 minutes for me to put in this newly reset password into the terminal after completing the SSH step)*
 12. after clicking the **change password** button, you should see a page that has **"Password Change Successful"**
 ## Step 2: Downloading Visual Studio Code
-1. 
+1. go to the [Visual Studio Code website](https://code.visualstudio.com/)
+2. click on **download Mac Universal**
+3. open up the downloaded folder by going to your **Finder** app (command space and type in "Finder" if not available on your dock)
+4. follow instructions on screen 
+5. once it is installed, open a file (doesn't matter since you only need the terminal on VS Code) *I opened an old PA from CSE 11*
+
 ## Step 3: Connecting Remotely
 ## Step 4: Experimenting with Commands
 
