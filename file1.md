@@ -11,3 +11,4 @@ Numbers:
 1. One
 2. Two
 3. Three
+![Image](https://upload.wikimedia.org/wikipedia/commons/b/bd/Nile_crocodile_head.jpg)
