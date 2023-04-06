@@ -4,6 +4,8 @@
 - way to connect users to a remote computer 
 - great tool for remote access
 - allows you to log in and run commands on a remote machine just as if you were sitting in front of it 
-
+## Logging into a remote SSH
 ## Step 1: CSE15L Account Lookup
-1. 
+1. insert TritonLink username and PID into Account Lookup module [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
+2. 
+3. 
