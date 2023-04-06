@@ -7,5 +7,7 @@
 ## Logging into a remote SSH
 ## Step 1: CSE15L Account Lookup
 1. insert TritonLink username and PID into Account Lookup module [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
-2. 
-3. 
+2. after hitting submit, click on the button for the class you want to reset the password for (in this case, it would be CSE 15L)
+3. click on the [Global Password Change Tool](https://sdacs.ucsd.edu/~icc/password.php)
+4. copy the username (cs12sp23**) where ** represent the letters specific to your account
+5. click on [Proceed to the Password Change Tool](https://password.ucsd.edu/GetUser.aspx) underneath the **Student, AX, or Course-Specific Tab**
