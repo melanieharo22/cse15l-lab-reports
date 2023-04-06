@@ -1,8 +1,8 @@
 # CSE 15L Lab Report 1 - Remote Access and FileSystem on a Mac (Week 1)
-**Melanie Haro**
+**Melanie Haro** <br />
 **A17390371**
 
-**What is remote access snd why is it used?**
+**What is remote access and why is it used?**
 - way to connect users to a remote computer 
 - great tool for remote access
 - allows you to log in and run commands on a remote machine just as if you were sitting in front of it 
