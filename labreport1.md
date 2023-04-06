@@ -2,7 +2,7 @@
 **Melanie Haro** <br />
 **A17390371** <br />
 
-I will be showing you how to connect to remote access and understanding file systems on a Mac. 
+I will be showing you how to connect to remote access and understanding file systems on a Mac. <br />
 **What is remote access and why is it used?**
 - way to connect users to a remote computer 
 - great tool for remote access
