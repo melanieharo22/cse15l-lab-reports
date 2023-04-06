@@ -1,6 +1,6 @@
 # CSE 15L Lab Report 1 - Remote Access and FileSystem on a Mac (Week 1)
-## Melanie Haro 
-## A17390371
+**Melanie Haro**
+**A17390371**
 
 **What is remote access snd why is it used?**
 - way to connect users to a remote computer 
