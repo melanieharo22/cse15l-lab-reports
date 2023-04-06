@@ -12,5 +12,7 @@
 4. copy the username (cs12sp23**) where ** represent the letters specific to your account onto your clipboard (you will be using it for step 6)
 5. click on [Proceed to the Password Change Tool](https://password.ucsd.edu/GetUser.aspx) underneath the **Student, AX, or Course-Specific Tab**
 6. paste your username into the box below the **AD Password Change Tool**
-7. [click on I want to reset my course-specific account password](https://password.ucsd.edu/GetUser.aspx#:~:text=I%20want%20to%20reset%20my%20course%2Dspecific%20account%20password)
-8. 
+7. click on [I want to reset my course-specific account password](https://password.ucsd.edu/GetUser.aspx#:~:text=I%20want%20to%20reset%20my%20course%2Dspecific%20account%20password)
+8. authenticate with Duo
+9. confirm email and navigate to your confirmation email
+10. click on [UC San Diego Password reset page](https://password.ucsd.edu/secure/newadpass.aspx?token=5467deaf-1668-475b-a27a-d0d4b113f1a9%5c17572)
