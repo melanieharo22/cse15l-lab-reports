@@ -33,5 +33,8 @@ I will be showing you how to connect to remote access and understanding file sys
 2. 
 ## Step 4: Experimenting with Commands
 **GUI vs CLI** <br />
-You are most likely familiar with GUI which stands for **G**raphical **U**ser **I**nterface 
+You are most likely familiar with GUI which stands for **G**raphical **U**ser **I**nterface.
+- GUI lets a user interact with the device/system with the help of graphical elements which can include windows, menus, icons, etc.
+If you can't tell, when using the terminal, you can see that there are no windows, menus, or icons. So how are we supposed to navigate throughout the device/system? With CLI, which stands for **C**ommand **L**ine **I**nterface, you navigate throughout the device/system with commands! <br />
+Here are some basic commands: <br />
 [Back](https://melanieharo22.github.io/cse15l-lab-reports/)
