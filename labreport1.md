@@ -37,4 +37,6 @@ You are most likely familiar with GUI which stands for **G**raphical **U**ser **
 - GUI lets a user interact with the device/system with the help of graphical elements which can include windows, menus, icons, etc.
 If you can't tell, when using the terminal, you can see that there are no windows, menus, or icons. So how are we supposed to navigate throughout the device/system? With CLI, which stands for **C**ommand **L**ine **I**nterface, you navigate throughout the device/system with commands! <br />
 Here are some basic commands: <br />
+- ls
+- cd
 [Back](https://melanieharo22.github.io/cse15l-lab-reports/)
