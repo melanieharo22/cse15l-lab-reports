@@ -4,4 +4,4 @@
 - way to connect users to a remote computer <br />
 **Why is it used?**
 - great tool for remote access
-- allows you to log in and run commands on a remote machine just as if you were sitting in front of it
+- allows you to log in and run commands on a remote machine just as if you were sitting in front of it 
