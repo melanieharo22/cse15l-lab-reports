@@ -1,4 +1,6 @@
-# CSE 15L Lab Report 1 - Remote Access and FileSystem (Week 1)
+# CSE 15L Lab Report 1 - Remote Access and FileSystem on a Mac (Week 1)
+## Melanie Haro 
+## A17390371
 
 **What is remote access snd why is it used?**
 - way to connect users to a remote computer 
@@ -18,3 +20,6 @@
 10. click on [UC San Diego Password reset page](https://password.ucsd.edu/secure/newadpass.aspx?token=5467deaf-1668-475b-a27a-d0d4b113f1a9%5c17572)
 11. enter your new password that meets the requirements (different from previous passwords, at least 12 characters long, include upper & lower case, numbers and special symbols, not contain any part of your username) → *from previous experience: I have reset my password about 3 times total for CSE/ECE classes and found that when my password contained @!, my password reset process was more successful in the sense that it took less than 15 minutes for me to put in this newly reset password into the terminal after completing the SSH step)*
 12. after clicking the **change password** button, you should see a page that has **"Password Change Successful"**
+## Step 2: Downloading Visual Studio Code
+## Step 3: Connecting Remotely
+## Step 4:
