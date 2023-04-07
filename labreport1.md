@@ -37,6 +37,13 @@ You are most likely familiar with GUI which stands for **G**raphical **U**ser **
 - GUI lets a user interact with the device/system with the help of graphical elements which can include windows, menus, icons, etc.
 If you can't tell, when using the terminal, you can see that there are no windows, menus, or icons. So how are we supposed to navigate throughout the device/system? With CLI, which stands for **C**ommand **L**ine **I**nterface, you navigate throughout the device/system with commands! <br />
 Here are some basic commands: <br />
-- ls
-- cd
+- ls (abbreviation for list) → used to list the files and folders the given path
+- cd (change directory) → used to switch the current working directory to the given path
+1. cd → takes user to the home directory
+2. cd ~ → takes user to the home directory
+3. cd .. → takes user to parent directory
+- cat → 
+- mkdir → make a directory 
+- rmdir → 
+- rm -r
 [Back](https://melanieharo22.github.io/cse15l-lab-reports/)
