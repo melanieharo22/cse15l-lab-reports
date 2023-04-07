@@ -42,9 +42,9 @@ Here are some basic commands: <br />
 1. cd → takes user to the home directory
 2. cd ~ → takes user to the home directory
 3. cd .. → takes user to parent directory
-- cat → Prints the contents of one or more files given by the paths
-- mkdir → make a directory 
-- rmdir → remove a directory (only works if it is empty)
-- rm -r → remove directory that's not empty
+4. cat → Prints the contents of one or more files given by the paths
+5. mkdir → make a directory 
+6. rmdir → remove a directory (only works if it is empty)
+7. rm -r → remove directory that's not empty
 Type these commands to see what happens. This is how you're going to navigate around the device/system. 
 [Back](https://melanieharo22.github.io/cse15l-lab-reports/)
