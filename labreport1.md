@@ -46,5 +46,5 @@ Here are some basic commands: <br />
 5. mkdir → make a directory 
 6. rmdir → remove a directory (only works if it is empty)
 7. rm -r → remove directory that's not empty
-Type these commands to see what happens. This is how you're going to navigate around the device/system. 
+Type these commands to see what happens. This is how you're going to navigate around the device/system. <br /> 
 [Back](https://melanieharo22.github.io/cse15l-lab-reports/)
