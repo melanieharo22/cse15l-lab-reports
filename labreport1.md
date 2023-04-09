@@ -45,12 +45,12 @@ If you can't tell, when using the terminal, you can see that there are no window
 Here are some basic commands: <br />
 - ls (abbreviation for list) → used to list the files and folders the given path
 - cd (change directory) → used to switch the current working directory to the given path
-1. cd → takes user to the home directory
-2. cd ~ → takes user to the home directory
-3. cd .. → takes user to parent directory
-4. cat → Prints the contents of one or more files given by the paths
-5. mkdir → make a directory 
-6. rmdir → remove a directory (only works if it is empty)
-7. rm -r → remove directory that's not empty
+- cd → takes user to the home directory
+- cd ~ → takes user to the home directory
+- cd .. → takes user to parent directory
+- cat → Prints the contents of one or more files given by the paths
+- mkdir → make a directory 
+- rmdir → remove a directory (only works if it is empty)
+- rm -r → remove directory that's not empty
 Type these commands to see what happens. This is how you're going to navigate around the device/system. <br /> 
 [Back](https://melanieharo22.github.io/cse15l-lab-reports/)
