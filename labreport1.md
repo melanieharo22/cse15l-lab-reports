@@ -30,7 +30,9 @@ I will be showing you how to connect to remote access and understanding file sys
 ## Step 3: Connecting Remotely
 *just to preface: when explaining the next steps which involve use of the terminal, when you see "$" here or anywhere else, it is representative of Ia convention for how we write commands* <br />
 1. open up a terminal window in VS Code
-2. 
+2. type ssh and then the username cs12sp23**@ieng6.ucsd.edu
+3. you should see the following <br />
+
 ## Step 4: Experimenting with Commands
 **GUI vs CLI** <br />
 You are most likely familiar with GUI which stands for **G**raphical **U**ser **I**nterface.
