@@ -35,7 +35,7 @@ I will be showing you how to connect to remote access and understanding file sys
 1. open up a terminal window in VS Code
 2. type ssh and then the username cs12sp23**@ieng6.ucsd.edu
 3. you should see the following <br />
-
+![Image](A4D5D3F7-0D9A-4111-B5B2-0B2052A40EB5.jpeg)
 ## Step 4: Experimenting with Commands
 **GUI vs CLI** <br />
 You are most likely familiar with GUI which stands for **G**raphical **U**ser **I**nterface.
