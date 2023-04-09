@@ -23,6 +23,7 @@ I will be showing you how to connect to remote access and understanding file sys
 12. after clicking the **change password** button, you should see a page that has **"Password Change Successful"**
 ## Step 2: Downloading Visual Studio Code
 1. go to the [Visual Studio Code website](https://code.visualstudio.com/)
+![Image](CD8DDDF2-AAAF-49F3-B8FE-DE720D66EA16.jpeg)
 2. click on **download Mac Universal**
 3. open up the downloaded folder by going to your **Finder** app (command space and type in "Finder" if not available on your dock)
 4. follow instructions on screen 
@@ -32,7 +33,7 @@ I will be showing you how to connect to remote access and understanding file sys
 1. open up a terminal window in VS Code
 2. type ssh and then the username cs12sp23**@ieng6.ucsd.edu
 3. you should see the following <br />
-![Image](CD8DDDF2-AAAF-49F3-B8FE-DE720D66EA16.jpeg)
+
 ## Step 4: Experimenting with Commands
 **GUI vs CLI** <br />
 You are most likely familiar with GUI which stands for **G**raphical **U**ser **I**nterface.
