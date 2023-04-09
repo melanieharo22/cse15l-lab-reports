@@ -11,7 +11,6 @@ I will be showing you how to connect to remote access and understanding file sys
 ## Step 1: CSE15L Account Lookup
 1. insert TritonLink username and PID into Account Lookup module [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
 2. after hitting submit, click on the button for the class you want to reset the password for (in this case, it would be CSE 15L)
-![Image](0511F1F1-F9A7-4EFC-86A8-52D04B88483D.jpeg)
 3. click on the [Global Password Change Tool](https://sdacs.ucsd.edu/~icc/password.php)
 4. copy the username (cs12sp23**) where ** represent the letters specific to your account onto your clipboard (you will be using it for step 6)
 5. click on [Proceed to the Password Change Tool](https://password.ucsd.edu/GetUser.aspx) underneath the **Student, AX, or Course-Specific Tab**
