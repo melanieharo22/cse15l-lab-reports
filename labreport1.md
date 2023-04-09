@@ -54,5 +54,5 @@ Here are some basic commands: <br />
 Type these commands to see what happens. This is how you're going to navigate around the device/system. <br /> 
 ![Image](E0C1534F-24D6-410A-A536-BF3E0B02AE5D.jpeg) <br />
 Here you can see I played around with some of the commands listed. I made a directory called hello and deleted it with the rmdir command since it was empty. I also played around with these commands shared in lab: <br />
-![Image]()
+![Image](F32E212C-D5E9-456B-91D1-AA5E791718EE_4_5005_c.jpeg)
 [Back](https://melanieharo22.github.io/cse15l-lab-reports/)
