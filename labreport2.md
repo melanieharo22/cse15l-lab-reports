@@ -7,5 +7,5 @@
 ## Part 2
 
 ## Part 3
-- Before labs 2 and 3 I didn't know about URIs, when looking at the lecture handout before lecture, I was unsure what the URI keyword was doing before url as a parameter
+- Before labs 2 and 3 I didn't know about URIs, I was unsure what the URI keyword was doing before url as a parameter
 ![Image](402A6F08-A160-4460-BFF5-45466796409A.jpeg)
