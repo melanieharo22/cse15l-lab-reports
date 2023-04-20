@@ -5,9 +5,11 @@
 ## Part 1
 
 ## Part 2
-····# code block
-····print '3 backticks or'
-····print 'indent 4 spaces'
+```
+# code block
+print '3 backticks or'
+print 'indent 4 spaces'
+```
 
 ## Part 3
 Before labs 2 and 3 I didn't know about URIs, I was unsure what the URI keyword was doing before url as a parameter
