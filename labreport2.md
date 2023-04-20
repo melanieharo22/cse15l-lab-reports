@@ -5,6 +5,8 @@
 ## Part 1
 
 ## Part 2
+**Symptoms** <br/>
+![Image](2F3C974A-73A9-4ACC-9522-DEF9FE6CA78E.jpeg)
 ```
 # code block
 print '3 backticks or'
