@@ -9,3 +9,4 @@
 ## Part 3
 - Before labs 2 and 3 I didn't know about URIs, I was unsure what the URI keyword was doing before url as a parameter
 ![Image](402A6F08-A160-4460-BFF5-45466796409A.jpeg)
+- After lecture and reading the [documentation](https://docs.oracle.com/javase/8/docs/api/java/net/URI.html) represents a Uniform Resource Identifier (URI) reference.
