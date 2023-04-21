@@ -8,16 +8,26 @@
 **Symptoms** <br/>
 ![Image](2F3C974A-73A9-4ACC-9522-DEF9FE6CA78E.jpeg)
 
-**Failure-inducing input proven by JUnit test**
+**Failure-inducing input for the buggy program (ReverseInPlace() method) proven by JUnit test**
 
+```
+@Test 
+    public void testReversed2() {
+    int[] arr = {1, 2, 3, 4, 5};
+    int[] reversed = ArrayExamples.reversed(arr);
+    assertArrayEquals(new int[] {5, 4, 3, 2, 1}, reversed);
+    }
+```
+**Input that doesn’t induce a failure for the buggy program (also ReverseInPlace() method) proven by JUnit test**
 ```
 @Test 
     public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
-	}
+    }
 ```
+
 
 
 ## Part 3
