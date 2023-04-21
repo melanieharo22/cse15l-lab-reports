@@ -5,6 +5,7 @@
 ## Part 1
 
 ## Part 2
+In lab this week, we created JUnit tests to identify bugs in the code provided. I tried to directly find out what was wrong with the methods but found that actually writing the tests in order to find out what was wrong with the program was more helpful. <br />
 **Failure-inducing input for the buggy program (ReverseInPlace() method) proven by JUnit test**
 
 ```
@@ -15,6 +16,7 @@
     assertArrayEquals(new int[] {5, 4, 3, 2, 1}, reversed);
     }
 ```
+This test shows that there is an error in the program since it failed the test, meaning that we the actual value was not the same as the expect.
 **Input that doesn’t induce a failure for the buggy program (also ReverseInPlace() method) proven by JUnit test**
 ```
 @Test 
