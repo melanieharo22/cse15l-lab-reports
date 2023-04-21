@@ -11,9 +11,8 @@
 **Failure-inducing input proven by JUnit test**
 
 ```
-# code block
 @Test 
-	public void testReverseInPlace() {
+    public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
