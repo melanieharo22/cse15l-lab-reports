@@ -26,6 +26,8 @@ This test shows that there is an error in the program since it failed the test, 
     assertArrayEquals(new int[]{ 3 }, input1);
     }
 ```
+**After the fix:**
+![Image](46B461D5-507A-4B56-A0A0-51DAE3B8D3DF.jpeg)
 
 **Symptoms** <br/>
 ![Image](0FFB09D9-4E80-4882-AEF5-E09AABEEA513.jpeg)
