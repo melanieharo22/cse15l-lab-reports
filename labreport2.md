@@ -7,11 +7,19 @@
 ## Part 2
 **Symptoms** <br/>
 ![Image](2F3C974A-73A9-4ACC-9522-DEF9FE6CA78E.jpeg)
+
+**Failure-inducing input proven by JUnit test**
+
 ```
 # code block
-print '3 backticks or'
-print 'indent 4 spaces'
+@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
 ```
+
 
 ## Part 3
 Before labs 2 and 3 I didn't know about URIs, I was unsure what the URI keyword was doing before url as a parameter
