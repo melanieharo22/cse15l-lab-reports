@@ -17,7 +17,7 @@ In lab this week, we created JUnit tests to identify bugs in the code provided. 
     }
 ```
 This test shows that there is an error in the program since it failed the test, meaning that we the actual value was not the same as the expect.
-**Input that doesn’t induce a failure for the buggy program (also ReverseInPlace() method) proven by JUnit test**
+**Input that doesn’t induce a failure for the buggy program (also reverseInPlace() method) proven by JUnit test**
 ```
 @Test 
     public void testReverseInPlace() {
@@ -29,8 +29,8 @@ This test shows that there is an error in the program since it failed the test, 
 
 **Symptoms** <br/>
 ![Image](0FFB09D9-4E80-4882-AEF5-E09AABEEA513.jpeg)
-
-**Failure-inducing input for the buggy program (ReverseInPlace() method) proven by JUnit test**
+In this image, I compiled and ran a total of 3 tests but only 2 of them tested **reverseInPlace()** as you can see, there was 1 failure which was from the buggy program since it did not do what we wanted it to do (logical error). The other test that doesn't induce a failure for the program passed.
+**Failure-inducing input for the buggy program (reverseInPlace() method) proven by JUnit test**
 
 
 ## Part 3
