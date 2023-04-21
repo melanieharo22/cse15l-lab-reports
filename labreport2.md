@@ -26,8 +26,25 @@ This test shows that there is an error in the program since it failed the test, 
     assertArrayEquals(new int[]{ 3 }, input1);
     }
 ```
+
+**Before the fix:**
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = arr[arr.length - i - 1];
+    }
+}
+```
 **After the fix:**
-![Image](46B461D5-507A-4B56-A0A0-51DAE3B8D3DF.jpeg)
+```
+// Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+      int[] newArray = reversed(arr);
+      for(int i = 0; i < arr.length; i += 1) {
+          arr[i] = newArray[i];
+      }
+  }
+```
 
 **Symptoms** <br/>
 ![Image](0FFB09D9-4E80-4882-AEF5-E09AABEEA513.jpeg)
