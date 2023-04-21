@@ -47,6 +47,7 @@ static void reverseInPlace(int[] arr) {
 ```
 
 **Symptoms** <br/>
+*A symptom is a faulty program behavior you can see and in the image you can see that we can visibly see where our errors are occuring* <br />
 ![Image](0FFB09D9-4E80-4882-AEF5-E09AABEEA513.jpeg)
 In this image, I compiled and ran a total of 3 tests but only 2 of them tested **reverseInPlace()** as you can see, there was 1 failure which was from the buggy program since it did not do what we wanted it to do (logical error). The other test that doesn't induce a failure for the program passed.
 **Failure-inducing input for the buggy program (reverseInPlace() method) proven by JUnit test**
