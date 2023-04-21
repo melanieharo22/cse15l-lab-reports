@@ -28,7 +28,7 @@ This test shows that there is an error in the program since it failed the test, 
 ```
 
 **Symptoms** <br/>
-![Image](2F3C974A-73A9-4ACC-9522-DEF9FE6CA78E.jpeg)
+![Image](0FFB09D9-4E80-4882-AEF5-E09AABEEA513.jpeg)
 
 **Failure-inducing input for the buggy program (ReverseInPlace() method) proven by JUnit test**
 
