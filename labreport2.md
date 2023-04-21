@@ -45,6 +45,10 @@ static void reverseInPlace(int[] arr) {
       }
   }
 ```
+The fixes address the issue since the original array is not being reversed in place correctly but after the fix, it reverse the way it is supposed to. Without changing the assignment of the array indices, the new array would not be filled with the reversed elements correctly.
+
+
+
 
 **Symptoms** <br/>
 *A symptom is a faulty program behavior you can see and in the image you can see that we can visibly see where our errors are occuring* <br />
