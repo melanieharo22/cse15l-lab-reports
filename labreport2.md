@@ -22,14 +22,15 @@ and then running:
 ```
 mharomendoza@Melanies-MacBook-Air-2 wavelet % java StringServer 8080
 ```
-Which methods in your code are called? -> handleRequest() is being called <br />
-What are the relevant arguments to those methods, and the values of any relevant fields of the class? -> handleRequest takes in a url and if the path is "/add-message" then the query is separated into 2 different elements in an array where the first one should be "s", and if "s", then the message will be displayed. In this case: Hello {<br />
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why. -> the values of the relevant fields did not change, everything worked as it was supposed to: take in a url and if the url had the add message part, return a message. The message changed each time according to the message in the url. <br />
+**Which methods in your code are called? ->** handleRequest() is being called <br />
+**What are the relevant arguments to those methods, and the values of any relevant fields of the class? ->** handleRequest takes in a url and if the path is "/add-message" then the query is separated into 2 different elements in an array where the first one should be "s", and if "s", then the message will be displayed. In this case: Hello <br />
+**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why. ->** the values of the relevant fields did not change, everything worked as it was supposed to: take in a url and if the url had the add message part, return a message. The message changed each time according to the message in the url. <br />
 
 ![Image](332A7966-FCA4-4CA6-9CBB-3DA8955B3E7D.jpeg) <br />
 Here I did the same thing as above except with a different message. <br />
-What are the relevant arguments to those methods, and the values of any relevant fields of the class? -> handleRequest takes in a url and if the path is "/add-message" then the query is separated into 2 different elements in an array where the first one should be "s", and if "s", then the message will be displayed. In this case: Hello How are you{<br />
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why. -> the values of the relevant fields did not change, everything worked as it was supposed to: take in a url and if the url had the add message part, return a message. The message changed each time according to the message in the url. <br />
+**Which methods in your code are called? ->** handleRequest() is being called <br />
+**What are the relevant arguments to those methods, and the values of any relevant fields of the class? ->** handleRequest takes in a url and if the path is "/add-message" then the query is separated into 2 different elements in an array where the first one should be "s", and if "s", then the message will be displayed. In this case: Hello How are you <br />
+**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why. ->** the values of the relevant fields did not change, everything worked as it was supposed to: take in a url and if the url had the add message part, return a message. The message changed each time according to the message in the url. <br />
 
 ## Part 2
 In lab this week, we created JUnit tests to identify bugs in the code provided. I tried to directly find out what was wrong with the methods but found that actually writing the tests in order to find out what was wrong with the program was more helpful. <br />
