@@ -3,6 +3,10 @@
 **A17390371** <br />
 
 ## Part 1
+![Image](2FD34FE2-5403-41F7-94C5-A256CAA47180.jpeg)
+![Image](8396A585-A563-46C9-A221-49A259B1AA8A.jpeg)
+![Image](B066ECCD-013C-44D9-A494-87E97F0E6A06.jpeg)
+![Image](332A7966-FCA4-4CA6-9CBB-3DA8955B3E7D.jpeg)
 
 ## Part 2
 In lab this week, we created JUnit tests to identify bugs in the code provided. I tried to directly find out what was wrong with the methods but found that actually writing the tests in order to find out what was wrong with the program was more helpful. <br />
