@@ -3,9 +3,18 @@
 **A17390371** <br />
 
 ## Part 1
+This is how I wrote a web server called StringServer. <br />
+I actually went ahead and drew inspiration from the wavelet file we used during Lab 2 to get a better understanding of how to structure my code.
 ![Image](2FD34FE2-5403-41F7-94C5-A256CAA47180.jpeg)
+Here I wrote a Handler class that implements the **URLHandler** interface. I created a method called **handleRequest** that takes in a url. Within this method I included the code necessary to support the path and behavior described in the writeup.
 ![Image](8396A585-A563-46C9-A221-49A259B1AA8A.jpeg)
+This is my code for the actual StringServer class which was actually the same exact thing as the NumberServer class from lab 2.
 ![Image](B066ECCD-013C-44D9-A494-87E97F0E6A06.jpeg)
+This is the result of compiling and running the code. <br />
+I compiled it by using the following command: <br />
+```
+mharomendoza@Melanies-MacBook-Air-2 wavelet %  javac Server.java StringServer.java 
+```
 ![Image](332A7966-FCA4-4CA6-9CBB-3DA8955B3E7D.jpeg)
 
 ## Part 2
