@@ -28,3 +28,4 @@ As you can see I looked for files with "chapter" in their name. <br />
 
 Here I looked for anything with **txt** in their name: <br />
 ![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%206.57%20PM.jpeg) <br />
+This could be useful if your looking for txt files in case you want to cat them and see their contents. 
