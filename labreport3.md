@@ -46,7 +46,7 @@ locate <file name>
 ```
 <br />
 Here is me using **locate biomed** to find biomed related texts in the database I was in after running the commands to isnstall locate: <br />
-![Image](locate-biomed.jpg) <br />
+![Image]([locate-biomed.jpg](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/locate-biomed.jpg)) <br />
 This would be pretty useful if you were curious about what directories contained the keyword you are looking for in their name. In this case, I was curious which files contained "biomed". <br />
 
 Here is another example of me using the **locate** command to find anything within the ./technical directory containing "plos". This shows that **locate** would be a useful command to find a file or directory with a specific keyword in mind. <br />
