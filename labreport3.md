@@ -34,3 +34,10 @@ Another useful alternative to **find** is **mdfind**. This one works a replaceme
 ![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%207.07%20PM.jpeg) <br />
 
 Here I used **mdfind ucsd-cse15l** to look for any files, specifically repositories I downloaded as zip folders or even cloned when practicing for th 
+
+
+
+Citations: <br />
+fd -> [sharkdp/fd](https://github.com/sharkdp/fd) <br />
+mdfind -> [mdfind: A Command-line Interface to macOS's Spotlight](https://metaredux.com/posts/2019/12/22/mdfind.html) <br />
+locate -> [Enable and Use the ‘locate’ Command in the Mac OS X Terminal](https://osxdaily.com/2011/11/02/enable-and-use-the-locate-command-in-the-mac-os-x-terminal/) <br />
