@@ -33,3 +33,4 @@ This could be useful if your looking for txt files in case you want to cat them 
 Another useful alternative to **find** is **mdfind**. This one works a replacement by default, so no need to install anything beforehand. Here I am typing **mdfind biomed** to find any file with biomed in its content. This can be useful if you are looking for specific files with a key word in them. In this case lets say I was working on a biomed project and wanted to see every document in my home directory with the biomed keyword. <br />
 ![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%207.07%20PM.jpeg) <br />
 
+Here I used **mdfind ucsd-cse15l** to look for any files, specifically repositories I downloaded as zip folders or even cloned when practicing for th 
