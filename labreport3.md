@@ -37,7 +37,13 @@ Here I used **mdfind ucsd-cse15l** to look for a file/directory with the keyword
 ![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%209.30%20PM.jpeg) <br />
 
 
+The last *interesting* alternative to **find** I came across was the **ripgrep (rg)** command and at first I am not going to lie, it scared me and I thought I broke my computer. I asked ChatGPT ways I can use ripgrep and the first thing I tried was: <br />
+```
+rg example --type txt
 
+```
+This searched for the word "example" only in files with a specific extension (e.g., .txt) and it gave me a ton of output (way too much) so I only took a screenshot of a bit. This seems like a pretty inefficient version of find since it gave me WAY too much information. However, if you use **command F** you can look for anything, but it might take a while and defeats the purpose of even using the command. It might work if you have a super duper unique word. Here is what it looked liked when I typed the command I shared above: <br />
+![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%209.44%20PM.jpeg)
 
 Citations: <br />
 overall: [Homebrew Documentation](https://docs.brew.sh/) <br />
