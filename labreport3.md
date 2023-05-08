@@ -47,6 +47,12 @@ where it then prompted me for my password and after that I ran: <br />
 locate <file name>
 ```
 <br />
+Here is me using **locate biomed** to find biomed related texts in the database I was in after running the commands to isnstall locate: <br />
+![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%2010.18%20PM.jpeg) <br />
+This would be pretty useful if you were curious about what directories contained the keyword you are looking for in their name. In this case, I was curious which files contained "biomed". <br />
+
+Here is another example of me using the **locate** command to find anything within the ./technical directory containing "plos". This shows that **locate** would be a useful command to find a file or directory with a specific keyword in mind. <br />
+![Image](https://github.com/melanieharo22/cse15l-lab-reports/commit/90c9ead0b35b4b0cbb0b94a51c182873e8a89cd1)
 
 The last *interesting* alternative to **find** I came across was the **ripgrep (rg)** command. However it finds the contents of files as opposed to the file paths like the **find** command. However, it does show the file path of the specific file that contains text you want it to output. At first, I am not going to lie, it scared me and I thought I broke my computer. I asked ChatGPT ways I can use ripgrep and the first thing I tried was: <br />
 ```
