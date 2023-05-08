@@ -21,18 +21,18 @@ brew install fd
 ```
 
 Here is me using the **fd** command with files and directories from **./technical**: <br />
-![Image](https://raw.githubusercontent.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%206.12%20PM.jpeg) <br />
+![Image](fd-chapter.jpg) <br />
 As you can see I looked for files with "chapter" in their name. This could be useful if you are looking for a certain chapter within a directory instead of having to manually do it. <br />
 
 Here I looked for anything with **txt** in their name: <br />
-![Image](https://raw.githubusercontent.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%206.57%20PM.jpeg) <br />
+![Image](fd-txt.jpg) <br />
 This could be useful if your looking for txt files in case you want to cat them and see their contents. <br />
 
-Another useful alternative to **find** is **mdfind**. This one works a replacement by default, so no need to install anything beforehand. Here I am typing **mdfind biomed** to find any file with biomed in its content. This can be useful if you are looking for specific files with a key word in them. In this case lets say I was working on a biomed project and wanted to see every document in my home directory with the biomed keyword. <br />
-![Image](https://raw.githubusercontent.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%207.07%20PM.jpeg) <br />
+Another useful alternative to **find** is **mdfind**. This one works a replacement by default, so no need to install anything beforehand. Here I am typing **mdfind government** to find any file with government in its file path. This can be useful if you are looking for specific files with a key word in them. In this case lets say I was working on a government project and wanted to see every document in my home directory with the government keyword. <br />
+![Image](mdfind-gov.jpg) <br />
 
-Here I used **mdfind ucsd-cse15l** to look for a file/directory with the keyword "stringsearch-data". This would be useful if you are trying to find the repository you cloned from practicing for Skill Demo 1 or any file/directory containing a very specific keyword. <br />
-![Image](https://raw.githubusercontent.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%209.30%20PM.jpeg) <br />
+Here I used **mdfind ucsd-chapter** to look for a file/directory with the keyword "chapter". This would be useful if you are trying to find the repository you cloned from practicing for Skill Demo 1 or any file/directory containing a very specific keyword--in this case if you are looking for a specific chapter. <br />
+![Image](mdfind-chapter.jpg) <br />
 
 Another find alternative I used was **locate**. This one isn't a replacement by default on Mac OS and I had to install it independently of my package manager. I typed the following: <br />
 
@@ -50,7 +50,7 @@ Here is me using **locate biomed** to find biomed related texts in the database 
 This would be pretty useful if you were curious about what directories contained the keyword you are looking for in their name. In this case, I was curious which files contained "biomed". <br />
 
 Here is another example of me using the **locate** command to find anything within the ./technical directory containing "plos". This shows that **locate** would be a useful command to find a file or directory with a specific keyword in mind. <br />
-![Image](https://raw.githubusercontent.com/melanieharo22/cse15l-lab-reports/commit/90c9ead0b35b4b0cbb0b94a51c182873e8a89cd1)
+![Image](locate-plos.jpg)
 
 The last *interesting* alternative to **find** I came across was the **ripgrep (rg)** command. However it finds the contents of files as opposed to the file paths like the **find** command. However, it does show the file path of the specific file that contains text you want it to output. At first, I am not going to lie, it scared me and I thought I broke my computer. I asked ChatGPT ways I can use ripgrep and the first thing I tried was: <br />
 ```
@@ -58,9 +58,9 @@ rg example --type txt
 
 ```
 This searched for the word "example" only in files with a specific extension (e.g., .txt) and it gave me a ton of output (way too much) so I only took a screenshot of a bit. This seems like a pretty inefficient version of find since it gave me WAY too much information. However, if you use **command F** you can look for anything, but it might take a while and defeats the purpose of even using the command. It might work if you have a super duper unique word. Here is what it looked liked when I typed the command I shared above: <br />
-![Image](https://raw.githubusercontent.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%209.44%20PM.jpeg) <br />
+![Image](rg-biomed.jpg) <br />
 Below I tried **rg** with a more unique word and I got the following output: <br />
-![Image](https://raw.githubusercontent.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%209.52%20PM.jpeg) <br />
+![Image](rg-bequeath.jpg) <br />
 This command would be pretty useful if you wanted the name or location of a specific file you have in mind but don't remember anything except a unique word that was in the contents of that file. For instance, lets say I was trying to look for the txt file I was reading earlier by looking for unique words that could be IN the contents of a specific file I had in mind but couldn't remember. And let's say that I remember the word "bequeath" being in that file. After typing **rg bequeath --type txt** I found the file I was reading earlier but was only able to remember a word in that txt file.
 
 Citations: <br />
