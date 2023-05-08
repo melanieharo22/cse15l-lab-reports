@@ -36,6 +36,17 @@ Another useful alternative to **find** is **mdfind**. This one works a replaceme
 Here I used **mdfind ucsd-cse15l** to look for a file/directory with the keyword "stringsearch-data". This would be useful if you are trying to find the repository you cloned from practicing for Skill Demo 1 or any file/directory containing a very specific keyword. <br />
 ![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%209.30%20PM.jpeg) <br />
 
+Another find alternative I used was **locate**. This one isn't a replacement by default on Mac OS and I had to install it independently of my package manager. I typed the following: <br />
+
+```
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+
+```
+where it then prompted me for my password and after that I ran: <br />
+```
+locate <file name>
+```
+<br />
 
 The last *interesting* alternative to **find** I came across was the **ripgrep (rg)** command. However it finds the contents of files as opposed to the file paths like the **find** command. However, it does show the file path of the specific file that contains text you want it to output. At first, I am not going to lie, it scared me and I thought I broke my computer. I asked ChatGPT ways I can use ripgrep and the first thing I tried was: <br />
 ```
