@@ -10,7 +10,7 @@ There are many other alternative commands to find, my personal favorite being **
 ![Image](https://raw.githubusercontent.com/melanieharo22/cse15l-lab-reports/main/Image%205-7-23%20at%206.41%20PM.jpeg) <br />
 
 and **neofetch** <br />
-![Image](https://raw.githubusercontent.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%206.39%20PM.jpeg) <br />
+![Image](neofetch.jpg) <br />
 Which basically shows a ton of information about the device you are on. Many Linux users use this to flex their Linux distros. <br />
 Back to the actual lab report though, I used brew to install the very useful **fd** command. I already had brew downloaded on my Mac, but to download it you copy the link on their homepage onto your clipboard, paste it into your terminal, and hit enter. If you want to check if you already had it installed, you can simply type **brew -v** to check what version you have installed. For instance, here I am checking for the version I have: <br />
 ![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%206.30%20PM.jpeg)
