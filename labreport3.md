@@ -43,5 +43,5 @@ Citations: <br />
 overall: [Homebrew Documentation](https://docs.brew.sh/) <br />
 fd -> [sharkdp/fd](https://github.com/sharkdp/fd) <br />
 mdfind -> [mdfind: A Command-line Interface to macOS's Spotlight](https://metaredux.com/posts/2019/12/22/mdfind.html) <br />
-locate -> [Enable and Use the ‘locate’ Command in the Mac OS X Terminal](https://osxdaily.com/2011/11/02/enable-and-use-the-locate-command-in-the-mac-os-x-terminal/) <br />
+locate -> [Enable and Use the ‘locate’ Command in the Mac OS X Terminal](https://osxdaily.com/2011/11/02/enable-and-use-the-locate-command-in-the-mac-os-x-terminal/) && [locate command in Mac | find files and directories using locate in Mac terminal](https://youtu.be/lhwp5QfqmhE)<br />
 ripgrep -> [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) && ChatGPT by asking about ripgrep examples :)
