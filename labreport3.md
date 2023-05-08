@@ -10,7 +10,7 @@ There are many other alternative commands to find, my personal favorite being **
 [Image]()
 
 and **neofetch** <br />
-[Image]() <br />
+[Image](Image 5-7-23 at 6.39 PM.jpeg) <br />
 Which basically shows a ton of information about the device you are on. Many Linux users use this to flex their Linux distros. <br />
 Back to the actual lab report though, I used brew to install the **fd** command. <br />
 [Image]()
