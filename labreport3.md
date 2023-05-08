@@ -14,10 +14,15 @@ and **neofetch** <br />
 Which basically shows a ton of information about the device you are on. Many Linux users use this to flex their Linux distros. <br />
 Back to the actual lab report though, I used brew to install the **fd** command. <br />
 ![Image]()
-I already had brew downloaded on my Mac, but to download it you copy the link onto your clipboard, paste it into your terminal, and hit enter. If you want to check if you already had it installed, you can simply type **brew -v** to check what version you have installed. After installing brew, to install a command or package you would simply type **brew install** and then whatever it is you want to download. In this case, we want the **fd** command. <br /> 
+I already had brew downloaded on my Mac, but to download it you copy the link onto your clipboard, paste it into your terminal, and hit enter. If you want to check if you already had it installed, you can simply type **brew -v** to check what version you have installed. For instance, here I am checking for the version I have: <br />
+![Image]()
+
+After installing brew, to install a command or package you would simply type **brew install** and then whatever it is you want to download. In this case, we want the **fd** command. <br /> 
 ```
 brew install fd 
 ```
 It should look something like this: <br /> 
-[Image]() <br />
+![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%205.52%20PM.jpeg) <br />
 
+Here is me using the **fd** command with files and directories from **./technical**: <br />
+![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%206.12%20PM.jpeg)
