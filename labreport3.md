@@ -19,8 +19,6 @@ After installing brew, to install a command or package you would simply type **b
 ```
 brew install fd 
 ```
-It should look something like this: <br /> 
-![Image](https://raw.githubusercontent.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%205.52%20PM.jpeg) <br />
 
 Here is me using the **fd** command with files and directories from **./technical**: <br />
 ![Image](https://raw.githubusercontent.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%206.12%20PM.jpeg) <br />
