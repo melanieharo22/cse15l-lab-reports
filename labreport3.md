@@ -24,8 +24,12 @@ It should look something like this: <br />
 
 Here is me using the **fd** command with files and directories from **./technical**: <br />
 ![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%206.12%20PM.jpeg) <br />
-As you can see I looked for files with "chapter" in their name. <br />
+As you can see I looked for files with "chapter" in their name. This could be useful if you are looking for a certain chapter within a directory instead of having to manually do it. <br />
 
 Here I looked for anything with **txt** in their name: <br />
 ![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%206.57%20PM.jpeg) <br />
-This could be useful if your looking for txt files in case you want to cat them and see their contents. 
+This could be useful if your looking for txt files in case you want to cat them and see their contents. <br />
+
+Another useful alternative to **find** is **mdfind**. This one works a replacement by default, so no need to install anything beforehand. Here I am typing **mdfind biomed** to find any file with biomed in its content. This can be useful if you are looking for specific files with a key word in them. In this case lets say I was working on a biomed project and wanted to see every document in my home directory with the biomed keyword. <br />
+![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%207.07%20PM.jpeg) <br />
+
