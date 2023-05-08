@@ -6,7 +6,7 @@ The **find** command is an incredibly useful command to find certain files and d
 ![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%206.24%20PM.jpeg)
 Here I am in my working directory and used the find command to look for directories with the word "Documents" and as you can see I have a long list of different subdirectories and files with "Documents" in their path. <br />
 
-There are many other alternative commands to find, my personal favorite being **fd**. It is a more evolved alternative to find and it is written in Rust. Its intention was to have a friendlier approach to the find command with better user interface and faster performance. However, it is a command you have to install. I installed it by opening [Homebrew](https://brew.sh/). Homebrew is a package manager and you can download lots of cool packages on there! Some of the cool ones I have gotten access to include **cmatrix** which just does the following: <br />
+There are many other alternative commands to find, my personal favorite being **fd**. It is a more evolved alternative to find and it is written in Rust. Its intention was to have a friendlier approach to the find command with better user interface and faster performance. However, it is a command you have to install. I installed it using [Homebrew](https://brew.sh/). Homebrew is a package manager and you can download lots of cool packages on there! Some of the cool ones I have gotten access to include **cmatrix** which just does the following: <br />
 ![Image](https://raw.githubusercontent.com/melanieharo22/cse15l-lab-reports/main/Image%205-7-23%20at%206.41%20PM.jpeg) <br />
 
 and **neofetch** <br />
@@ -33,11 +33,15 @@ This could be useful if your looking for txt files in case you want to cat them 
 Another useful alternative to **find** is **mdfind**. This one works a replacement by default, so no need to install anything beforehand. Here I am typing **mdfind biomed** to find any file with biomed in its content. This can be useful if you are looking for specific files with a key word in them. In this case lets say I was working on a biomed project and wanted to see every document in my home directory with the biomed keyword. <br />
 ![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%207.07%20PM.jpeg) <br />
 
-Here I used **mdfind ucsd-cse15l** to look for any files, specifically repositories I downloaded as zip folders or even cloned when practicing for th 
+Here I used **mdfind ucsd-cse15l** to look for a file/directory with the keyword "stringsearch-data". This would be useful if you are trying to find the repository you cloned from practicing for Skill Demo 1 or any file/directory containing a very specific keyword. <br />
+![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%209.30%20PM.jpeg) <br />
+
 
 
 
 Citations: <br />
+overall: [Homebrew Documentation](https://docs.brew.sh/)
 fd -> [sharkdp/fd](https://github.com/sharkdp/fd) <br />
 mdfind -> [mdfind: A Command-line Interface to macOS's Spotlight](https://metaredux.com/posts/2019/12/22/mdfind.html) <br />
 locate -> [Enable and Use the ‘locate’ Command in the Mac OS X Terminal](https://osxdaily.com/2011/11/02/enable-and-use-the-locate-command-in-the-mac-os-x-terminal/) <br />
+ripgrep -> [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) && ChatGPT by asking about ripgrep examples :)
