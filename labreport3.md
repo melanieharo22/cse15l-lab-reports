@@ -37,13 +37,16 @@ Here I used **mdfind ucsd-cse15l** to look for a file/directory with the keyword
 ![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%209.30%20PM.jpeg) <br />
 
 
-The last *interesting* alternative to **find** I came across was the **ripgrep (rg)** command and at first I am not going to lie, it scared me and I thought I broke my computer. I asked ChatGPT ways I can use ripgrep and the first thing I tried was: <br />
+The last *interesting* alternative to **find** I came across was the **ripgrep (rg)** command. However it finds the contents of files as opposed to the file paths like the **find** command. However, it does show the file path of the specific file that contains text you want it to output. At first, I am not going to lie, it scared me and I thought I broke my computer. I asked ChatGPT ways I can use ripgrep and the first thing I tried was: <br />
 ```
 rg example --type txt
 
 ```
 This searched for the word "example" only in files with a specific extension (e.g., .txt) and it gave me a ton of output (way too much) so I only took a screenshot of a bit. This seems like a pretty inefficient version of find since it gave me WAY too much information. However, if you use **command F** you can look for anything, but it might take a while and defeats the purpose of even using the command. It might work if you have a super duper unique word. Here is what it looked liked when I typed the command I shared above: <br />
-![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%209.44%20PM.jpeg)
+![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%209.44%20PM.jpeg) <br />
+Below I tried **rg** with a more unique word and I got the following output: <br />
+![Image](https://github.com/melanieharo22/cse15l-lab-reports/blob/main/Image%205-7-23%20at%209.52%20PM.jpeg) <br />
+This command would be pretty useful if you wanted the name or location of a specific file you have in mind but don't remember anything except a unique word that was in the contents of that file. For instance, lets say I was trying to look for the txt file I was reading earlier by looking for unique words that could be IN the contents of a specific file I had in mind but couldn't remember. And let's say that I remember the word "bequeath" being in that file. After typing **rg bequeath --type txt** I found the file I was reading earlier but was only able to remember a word in that txt file.
 
 Citations: <br />
 overall: [Homebrew Documentation](https://docs.brew.sh/) <br />
