@@ -27,3 +27,9 @@ vim ListExamples.java
 
 I then used <j> to scroll down to the line that needed to be changed where index1+= 1 had to become index2+= 1 to fix the code. I then pressed <l> a few times until I reached the 1 in index1+= 1 and hit the <x> button to get rid of that character. I then went into insert mode by clicking "i" and after that I replaced the 1 with a 2. After that I clicked <esc> and type <:wq> to save the file. This is what the code looked like after fixing the bug. <br /> 
 ![fixing-bug](fixing-bug.jpg) <br />
+
+To run the tests now, you have to compile ListExamples and ListExamplesTests again. This is how I did it: <br />
+<up><up><up><up><enter> The 
+  ``` 
+  javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java 
+  ```
