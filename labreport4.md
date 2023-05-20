@@ -16,6 +16,7 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamplesTests.jav
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 
 ```
+
 ![Image](junit-tests-failing.jpg) <br />
 This is what the tests look like after compiling both files and running **ListExamplesTests**. We can see the tests failing. <br />
 To fix the tests, we needed to fix the bug in the **ListExamples.java** file first. The bug in the code is that index1 is used instead of index2 in the final loop in merge. To fix this we need to go into **ListExamples.java** using Vim. <br />
@@ -23,4 +24,5 @@ To do this, type <br />
 ```
 vim ListExamples.java
 ```
-I then used <j> to scroll down to the line that needed to be changed where index1+= 1 had to become index2+= 1 to fix the code. I then pressed <l> a few times until I reached the 1 in index1+= 1 and hit the <x> button to get rid of that character. I then went into insert mode by clicking <i> and after that I replaced the 1 with a 2. After that I clicked <esc> and type <:wq> to save the file. This is what the code looked like after fixing the bug:
+I then used <j> to scroll down to the line that needed to be changed where index1+= 1 had to become index2+= 1 to fix the code. I then pressed <l> a few times until I reached the 1 in index1+= 1 and hit the <x> button to get rid of that character. I then went into insert mode by clicking <i> and after that I replaced the 1 with a 2. After that I clicked <esc> and type <:wq> to save the file. This is what the code looked like after fixing the bug: <br />
+
