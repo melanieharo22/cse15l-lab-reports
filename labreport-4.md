@@ -8,3 +8,22 @@ single time you want to log into the remove ieng6 server. If you want to conside
 create an ssh key. <br />
 ![Image](step-4.jpg) <br />
 The next step is to clone the fork of the repository by using the git clone command. <br />
+
+```
+git clone https://github.com/melanieharo22/lab7.git
+```
+![Image](step-5.jpg) <br />
+Next to test the JUnit tests, you're going to want to **cd** into the lab7 directory and compile both ListExamples and ListExamplesTests. After that you are going to run ListExamplesTests to now run the JUnit tests. <br />
+```
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamplesTests.java
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+
+```
+![Image](junit-tests-failing.jpg) <br />
+This is what the tests look like after compiling both files and running **ListExamplesTests**. We can see the tests failing. <br />
+To fix the tests, we needed to fix the bug in the **ListExamples.java** file first. The bug in the code is that index1 is used instead of index2 in the final loop in merge. To fix this we need to go into **ListExamples.java** using Vim. <br />
+To do this, type <br />
+```
+vim ListExamples.java
+```
