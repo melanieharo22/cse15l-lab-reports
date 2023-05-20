@@ -27,3 +27,5 @@ To do this, type <br />
 ```
 vim ListExamples.java
 ```
+I then used **j** to scroll down to the line that needed to be changed and pressed **l** a few times until I reached the part of index1 I wanted to fix. I then hit **x** to get rid of the character. I went back into insert mode and then replaced the 1 with a 2. I then went hit escape and typed :wq to save the file.
+
