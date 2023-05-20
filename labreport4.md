@@ -37,4 +37,12 @@ command was used previously so instead of typing out the entire command, I used 
   ```
   javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamplesTests.java
   ```
+  After that, I typed <up><up><up><enter> to run the ListExamplesTests.java file
+ ```
+ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+ ```
+This is what it looked liked when the tests succeeded after the code was fixed <br />
+ ![Image](junit-tests-working.jpg)
+
+ 
   
