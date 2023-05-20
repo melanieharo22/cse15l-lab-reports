@@ -33,14 +33,9 @@ To run the tests now, you have to compile ListExamples and ListExamplesTests aga
   ``` 
   javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java 
   ```
-command was used previously so instead of typing out the entire command, I used the up arrow to save me some time. I then typed <up><up><up><up><enter> so that I can compile 
-  ```
-  javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamplesTests.java
-  ```
-  After that, I typed <up><up><up><enter> to run the ListExamplesTests.java file
- ```
- java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
- ```
+command was used previously so instead of typing out the entire command, I used the up arrow to save me some time. I then typed <up><up><up><up><enter> so that I can compile javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamplesTests.java. <br />
+After that, I typed <up><up><up><enter> to run the ListExamplesTests.java file java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests <br />
+  
 This is what it looked liked when the tests succeeded after the code was fixed <br />
  ![Image](junit-tests-working.jpg)
   
