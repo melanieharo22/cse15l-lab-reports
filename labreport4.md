@@ -29,7 +29,12 @@ I then used <j> to scroll down to the line that needed to be changed where index
 ![fixing-bug](fixing-bug.jpg) <br />
 
 To run the tests now, you have to compile ListExamples and ListExamplesTests again. This is how I did it: <br />
-<up><up><up><up><enter> The 
+<up><up><up><up><up><enter> The 
   ``` 
   javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java 
   ```
+command was used previously so instead of typing out the entire command, I used the up arrow to save me some time. I then typed <up><up><up><up><enter> so that I can compile 
+  ```
+  javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamplesTests.java
+  ```
+  
