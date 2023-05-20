@@ -26,7 +26,7 @@ vim ListExamples.java
 ```
 
 I then used <j> to scroll down to the line that needed to be changed where index1+= 1 had to become index2+= 1 to fix the code. I then pressed <l> a few times until I reached the 1 in index1+= 1 and hit the <x> button to get rid of that character. I then went into insert mode by clicking "i" and after that I replaced the 1 with a 2. After that I clicked <esc> and type <:wq> to save the file. This is what the code looked like after fixing the bug. <br /> 
-![fixing-bug](fixing-bug.jpg) <br />
+![fixing-bug](fixing-bug.jpg) 
 
 To run the tests now, you have to compile ListExamples and ListExamplesTests again. This is how I did it: <br />
 <up><up><up><up><up><enter> The 
@@ -36,10 +36,10 @@ To run the tests now, you have to compile ListExamples and ListExamplesTests aga
 command was used previously so instead of typing out the entire command, I used the up arrow to save me some time. I then typed <up><up><up><up><enter> so that I can compile ListExamplesTests.java. <br />
 After that, I typed <up><up><up><enter> to run the ListExamplesTests.java file java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests <br />
   
-This is what it looked liked when the tests succeeded after the code was fixed <br />
+This is what it looked liked when the tests succeeded after the code was fixed 
  ![Image](junit-tests-working.jpg) <br />
   
-After that, this is how I committed and pushed the resulting change to my Github account. I did this by typing git commit -am lab7 <br />
+After that, this is how I committed and pushed the resulting change to my Github account. I did this by typing git commit -am lab7 
  ![image](git-commit-slay.jpg) <br />
 
 You can see that I committed and pushed the change to my Github account.
