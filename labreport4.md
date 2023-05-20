@@ -8,5 +8,5 @@ The next step is to clone the fork of the repository by using the git clone comm
 ```
 git clone https://github.com/melanieharo22/lab7.git
 ```
-<br />
 ![Image](step-5.jpg) <br />
+ 
