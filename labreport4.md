@@ -40,6 +40,6 @@ This is what it looked liked when the tests succeeded after the code was fixed
  ![Image](junit-tests-working.jpg) <br />
   
 After that, this is how I committed and pushed the resulting change to my Github account. I did this by typing git commit -am lab7 
- ![image](git-commit-slay.jpg) <br />
+ ![image](git-commit-slay.jpg) <br /> 
 
 You can see that I committed and pushed the change to my Github account.
