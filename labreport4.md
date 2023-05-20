@@ -37,9 +37,9 @@ command was used previously so instead of typing out the entire command, I used 
 After that, I typed <up><up><up><enter> to run the ListExamplesTests.java file java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests <br />
   
 This is what it looked liked when the tests succeeded after the code was fixed <br />
- ![Image](junit-tests-working.jpg)
+ ![Image](junit-tests-working.jpg) <br />
   
 After that, this is how I committed and pushed the resulting change to my Github account. I did this by typing git commit -am lab7 <br />
- ![image](git-commit-slay.jpg) 
+ ![image](git-commit-slay.jpg) <br />
 
 You can see that I committed and pushed the change to my Github account.
