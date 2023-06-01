@@ -6,7 +6,7 @@ student posted in their Edstem post asking for help. <br />
 ![edstem](edstempost.jpg)
 These are images the student attached in their post: <br />
 This is the bash script itself: <br />
-![buggyScript](buggyscript.jpg)
+![buggyScript](buggybashscript.jpg)
 This is the output shown in the student's terminal: <br />
 ![buggyOutput](infiniteloop.jpg)
 This is what the TA/Tutor posted in response: <br />
