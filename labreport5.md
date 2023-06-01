@@ -17,6 +17,15 @@ After seeing this feedback, the student went back and fixed their code to includ
 This is the new, correct output after fixing the logical error: <br />
 ![fixedterminaloutput](fixedterminaloutput.jpg)
 The student added a counter variable which helped the while loop from running an infinite number of times. <br />
+
+This student wanted to try making the same type of program but in Java. This poor student can't seem to escape the bugs in their code and now has to figure out what is wrong. This is the following Java program with roughly the same thing they did in the first place. <br />
+**IMAGE**
+This is the Edstem post the student posted once again. <br />
+**IMAGE**
+The same TA/Tutor helped answer their question in terms of what was wrong with their code: <br />
+"Looks like there is another logical error in your code which is causing the ``` Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+        at buggy.main(buggy.java:5) ``` error <br />
+
 **Part 2: Reflection** <br /> 
 I really enjoyed this class because I learned a plethora of skills and techniques that will save me time. I additionally learned a 
 lot of useful tools such as Vim, bash, Git, and being exposed to that in this class has helped me explore them even further outside of 
