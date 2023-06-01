@@ -15,7 +15,7 @@ This is what the TA/Tutor posted in response: <br />
 After seeing this feedback, the student went back and fixed their code to include a counter variable in their while loop. <br />
 ![fixedbashscript](fixedbashscript.jpg)
 This is the new, correct output after fixing the logical error: <br />
-![fixedterminaloutput](fixedterminaloutout.jpg)
+![fixedterminaloutput](fixedterminaloutput.jpg)
 The student added a counter variable which helped the while loop from running an infinite number of times. <br />
 **Part 2: Reflection** <br /> 
 I really enjoyed this class because I learned a plethora of skills and techniques that will save me time. I additionally learned a 
