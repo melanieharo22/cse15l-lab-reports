@@ -41,8 +41,10 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ```
 This is what it looked liked when the tests succeeded after the code was fixed 
 ![Image](junit-tests-working.jpg) <br />
+**_Here I used the git add command to add the changes I made to the files_** <br />
+![Image](gitadd.jpg)
 
-**_After that, this is how I committed the resulting change to my Github account. I did this by typing git commit -am lab7__ **
+**_After that, this is how I committed the resulting change to my Github account. I did this by typing git commit -am lab7_**
 ![Image](git-commit-slay.jpg) <br /> 
 
 You can see that I committed and pushed the change to my Github account.
