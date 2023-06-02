@@ -1,6 +1,6 @@
 # CSE 15L Lab Report 5 - Debugging & Reflection
 **Melanie Haro** <br />
-**Part 1: Debugging Scenario** <br />
+**Part 1: Debugging Scenarios (1 Java and 1 Bash)** <br />
 A student was struggling with a bash script that asked for user input for a dividend and divisor and performed some division. This is what the 
 student posted in their Edstem post asking for help. <br />
 ![edstem](edstempost.jpg)
@@ -27,7 +27,7 @@ The same TA/Tutor helped answer their question in terms of what was wrong with t
         at buggy.main(buggy.java:5) ``` error. In order to fix this you need to address the different exceptions that could be causing your program to break. This can include NullPointerExceptions, IndexOutOfBoundsExceptions, arithmetic exceptions occuring, and again fixing the while loop to not go on forever. Try applying what you did to fix your bash program to this Java program as well--at least for the while loop part. It seems this is what is wrong since it does not involve file/directory structure--but simply another logical error and even compile error since your code won't compile." <br />
         
  The student then took into account what the IA told them and fixed their code and now it looks like the following. <br />
- 
+ ![fixedjava](fixedjava.jpg)
 The program checks the length of the numbers array before accessing an element at index 3. If the array length is greater than 3, it prints the element; otherwise, it displays an appropriate error message. The program now also has an if statement to check for null values, avoids division by zero but checking if the divisor is zero, and it can be seen the student applied what they did in the bash script (having a counter variable) into their Java program's while loop. 
 
 **Part 2: Reflection** <br /> 
