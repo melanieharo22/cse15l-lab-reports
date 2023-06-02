@@ -28,7 +28,7 @@ The same TA/Tutor helped answer their question in terms of what was wrong with t
         
  The student then took into account what the IA told them and fixed their code and now it looks like the following. <br />
  ![fixedjava](fixedjava.jpg)
-The program checks the length of the numbers array before accessing an element at index 3. If the array length is greater than 3, it prints the element; otherwise, it displays an appropriate error message. The program now also has an if statement to check for null values, avoids division by zero but checking if the divisor is zero, and it can be seen the student applied what they did in the bash script (having a counter variable) into their Java program's while loop. 
+The program checks the length of the numbers array before accessing an element at index 3. If the array length is greater than 3, it prints the element; otherwise, it displays an appropriate error message. The program now also has an if statement to check for null values, avoids division by zero but checking if the divisor is zero, and it can be seen the student applied what they did in the bash script (having a counter variable) into their Java program's while loop. The student now gets some output in the terminal after their code correctly compiles and runs.
 
 **Part 2: Reflection** <br /> 
 I really enjoyed this class because I learned a plethora of skills and techniques that will save me time. I additionally learned a 
