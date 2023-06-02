@@ -28,7 +28,7 @@ To do this, type <br />
 ```
 vim ListExamples.java
 ```
-I then used **j** to scroll down to the line that needed to be changed and pressed **l** a few times until I reached the part of index1 I wanted to fix. I then hit **x** to get rid of the character. I went back into insert mode and then replaced the 1 with a 2. I then went hit escape and typed :wq to save the file. This is what the code looked like after fixing the bug. 
+I then used **/** and typed index to jump straight down to where it says index instead of having to scroll down to the line that needed to be changed. I then pressed **/ 1** so I was able to reach what I wanted to fix:nindex1 I wanted to fix. I then hit **x** to get rid of the character. I went back into insert mode and then replaced the 1 with a 2. I then went hit escape and typed :wq to save the file. This is what the code looked like after fixing the bug. 
 ![Image](fixing-bug.jpg) <br />
 
 To run the tests now, you have to compile ListExamples and ListExamplesTests again. I hit the up arrow 5 times and hit enter SINCE THE 
@@ -44,10 +44,10 @@ This is what it looked liked when the tests succeeded after the code was fixed
 **_Here I used the git add command to add the changes I made to the files_** <br />
 ![Image](gitadd.jpg)
 
-**_After that, this is how I committed the resulting change to my Github account. I did this by typing git commit -am lab7_**
+**_After that, this is how I pushed and committed the resulting change to my Github account. I did this by typing git commit -am lab7_**
 ![Image](git-commit-slay.jpg) <br /> 
 
-You can see that I committed and pushed the change to my Github account.
+
  
 
 
