@@ -1,6 +1,6 @@
 # CSE 15L Lab Report 4 - Doing it All From the Command Line (Week 7)
 **Melanie Haro** <br />
-
+**_(the corrections and responses to feedback are in bold and italicized)_**
 
 The first step is to ssh into your ieng6 account. <br /> 
 During lab, we had to create ssh keys which ends up saving you so much time because you don't have to type a password every 
