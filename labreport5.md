@@ -24,7 +24,10 @@ This is the Edstem post the student posted once again. <br />
 ![secondedstem](secondedstempost.jpg)
 The same TA/Tutor helped answer their question in terms of what was wrong with their code: <br />
 "Looks like there is another logical error in your code which is causing the ``` Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-        at buggy.main(buggy.java:5) ``` error. In order to fix this you need to address the different exceptions that could be causing your prpgram to break.
+        at buggy.main(buggy.java:5) ``` error. In order to fix this you need to address the different exceptions that could be causing your program to break. This can include NullPointerExceptions, IndexOutOfBoundsExceptions, arithmetic exceptions occuring, and again fixing the while loop to not go on forever. Try applying what you did to fix your bash program to this Java program as well--at least for the while loop part. <br />
+        
+ The student then took into account what the IA told them and fixed their code and now it looks like the following. <br />
+ 
 
 **Part 2: Reflection** <br /> 
 I really enjoyed this class because I learned a plethora of skills and techniques that will save me time. I additionally learned a 
