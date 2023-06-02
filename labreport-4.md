@@ -47,7 +47,8 @@ This is what it looked liked when the tests succeeded after the code was fixed
 **_After that, this is how I pushed and committed the resulting change to my Github account. I did this by typing git commit -am lab7_**
 ![Image](git-commit-slay.jpg) <br /> 
 
-
+**_working tree is clean_** <br />
+![workingtree](workingtreeclean.jpg)
  
 
 
