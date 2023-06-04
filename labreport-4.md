@@ -1,5 +1,6 @@
 # CSE 15L Lab Report 4 - Doing it All From the Command Line (Week 7)
 **Melanie Haro** <br />
+
 **_(the corrections and responses to feedback are in bold and italicized)_**
 
 The first step is to ssh into your ieng6 account. <br /> 
@@ -47,7 +48,7 @@ This is what it looked liked when the tests succeeded after the code was fixed
 **_After that, this is how I pushed and committed the resulting change to my Github account. I did this by typing git commit -am lab7_**
 ![Image](git-commit-slay.jpg) <br /> 
 
-**_working tree is clean_** <br />
+**_here we can see the working tree is clean_** <br />
 ![workingtree](workingtreeclean.jpg)
  
 
