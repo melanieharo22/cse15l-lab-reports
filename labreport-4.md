@@ -10,7 +10,7 @@ create an ssh key. <br />
 The next step is to clone the fork of the repository by using the git clone command. <br />
 
 ```
-git clone https://github.com/melanieharo22/lab7.git
+git clone https://github.com/melanieharo22/lab7.git 
 ```
 ![Image](step-5.jpg) <br />
 Next to test the JUnit tests, you're going to want to **cd** into the lab7 directory and compile both ListExamples and ListExamplesTests. After that you are going to run ListExamplesTests to now run the JUnit tests. **_Because the commands are rather long, you can simply see that in the contents of the lab7 directory, there is a test.sh file. Inside of the test.sh file there are the following commands (which you can see by typing cat test.sh):_**<br />
