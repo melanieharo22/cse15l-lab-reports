@@ -5,7 +5,7 @@
 ## Part 1
 This is how I wrote a web server called StringServer. <br />
 I actually went ahead and drew inspiration from the wavelet file we used during Lab 2 to get a better understanding of how to structure my code.
-![Image](2FD34FE2-5403-41F7-94C5-A256CAA47180.jpeg) <br />
+![Image](2FD34FE2-5403-41F7-94C5-A256CAA47180.jpeg) \n
 <br />
 Here I wrote a Handler class that implements the **URLHandler** interface. I created a method called **handleRequest** that takes in a url. Within this method I included the code necessary to support the path and behavior described in the writeup. It basically says: if the path of the url says "/add-message", split the query (everything after the ? before the anchor) by its delimiter "=" and take those elements, put them into an array, and if the first element of the array is equal to s, then the second element of the array is equal to the message that will be displayed.
 ![Image](8396A585-A563-46C9-A221-49A259B1AA8A.jpeg) <br />
