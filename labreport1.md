@@ -1,6 +1,5 @@
 # CSE 15L Lab Report 1 - Remote Access and FileSystem on a Mac (Week 1)
 **Melanie Haro** <br />
-**A17390371** <br />
 
 I will be showing you how to connect to remote access and understanding file systems on a Mac. <br />
 **What is remote access and why is it used?**
